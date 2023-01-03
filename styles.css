@@ -1,0 +1,188 @@
+body{
+   background-color: #ff4c68;
+   color:white
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+
+    color : #fff;
+}
+
+#name{
+    width: 60%;
+    padding-left: 590px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:#fff;
+}
+.welcome{
+  top:65%;
+}
+.Heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+#landing{
+  text-align: center;
+
+}
+
+#ins{
+  text-align: left;
+  color:black;
+  font-size:17px;
+}
+#letsplay{
+  font-size:50px;
+}
+
+.info{
+
+  color: #fff;
+}
+.para{
+  color: black;
+    font-size:17px;
+}
+
+.btn1{
+
+    justify-content: center;
+    width: 10%;
+    right:50%;
+
+
+}
+.btn1{
+    justify-content: center;
+}
+h1{
+    top:25%;
+    right: 50%;
+    text-align: CENTER;
+
+}
+.box{
+    height: 156px;
+    width: 156px;
+    border: solid black 2px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#main{
+    height: 480px;
+    width: 480px;
+    border: solid black 4px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+    margin-top: -1%;
+}
+.cell{
+    height: 50px;
+    width: 50px;
+    border: solid black 1px;
+    text-align: center;
+    background-color: white;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+input{
+    height: 45px;
+    width: 44px;
+    border: none;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+}
+button{
+    height: 70px;
+    width: 200px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: white;
+    border: solid 4px black;
+    border-radius: 30px;
+    color: black;
+    position: absolute;
+    cursor: pointer;
+}
+button:hover {
+    background-color: black;
+    color: white;
+  }
+#GetPuzzle{
+    top: 85%;
+    right: 53%;
+}
+#NewGame{
+  top: 85%;
+  right: 38%;
+}
+#Solution{
+
+  top:50%;
+  right:10%;
+}
+
+#game_type{
+    position: absolute;
+    top: 24%;
+    left: 75%;
+
+}
+
+.label{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+
+
+
+#lives{
+    position: absolute;
+    top: 27%;
+    right: 86%;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#timer{
+    top: 20%;
+    right:75%;
+    position: absolute;
+    left: 3%;
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+
+}
+
+#vdo{
+    position: absolute;
+  bottom :20%;
+   box-sizing: border-box;
+
+}
+#demovdo{
+  position: absolute;
+  top:80%;
+  left:9%;
+}
